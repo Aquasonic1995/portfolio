@@ -4,7 +4,7 @@ import About from "./components/About/About.tsx";
 import Skills from "./components/Skills/Skills.tsx";
 import Projects from "./components/Projects/Projects.tsx";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -15,6 +15,6 @@ function App() {
       </main>
     </>
   );
-}
+};
 
 export default App;
