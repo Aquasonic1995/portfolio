@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer.tsx";
 
 const App = () => {
   return (
-    <>
+    <div className="container">
       <Header />
       <main>
         <About />
@@ -15,7 +15,7 @@ const App = () => {
         <Projects />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

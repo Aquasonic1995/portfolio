@@ -12,6 +12,7 @@ list-style: none;
 }
 body{margin-left: auto; margin-right: auto ;
   font-size: 20px;
+  width: 1200px;
 }
 a{
   text-decoration: none;
@@ -24,7 +25,10 @@ section{
 }
 
 
-
+.container{
+  margin-right: 50px;
+  margin-left: 50px;
+}
 
 .git-hub-wrapper{
   display: flex;
