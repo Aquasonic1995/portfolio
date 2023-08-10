@@ -1,0 +1,43 @@
+ul{
+  display: flex;
+}
+.listItem {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.listItem img{
+  height: 20px;
+  width: 100%;
+  background: white;
+  border-radius: 30px;
+}
+.listItem:hover {
+  a {
+    color: black;
+    text-shadow: 0 0 2px #bc13fe,
+    0 0 6px #bc13fe,
+    0 0 36px #bc13fe,
+    0 0 56px #bc13fe,
+    0 0 16px #bc13fe;
+    transition: 0.5s;
+  }
+
+  svg {
+    fill: black;
+    transition: 0.5s;
+    filter: drop-shadow(-.75px 0px 10px #bc13fe) drop-shadow(-.75px 0px 6px #bc13fe);
+  }
+  img{
+   background: transparent;
+    filter: drop-shadow(-.75px 0px 10px #bc13fe) drop-shadow(-.75px 0px 6px #bc13fe);
+    transition: 0.5s;
+  }
+}
+svg{
+  background: transparent;
+  height: 20px  ;
+  width: 100%;
+  fill:#fff;
+}
