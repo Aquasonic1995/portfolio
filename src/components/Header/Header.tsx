@@ -16,7 +16,7 @@ const Header = () => {
             <a href={"#projects"}>Projects</a>
           </li>
           <li className={styles.item}>
-            <a href={"#contacts"}>Contact Me</a>
+            <a href={"#contacts"}>Contacts</a>
           </li>
         </ul>
       </nav>
