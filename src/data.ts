@@ -1,7 +1,6 @@
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3, TbBrandTypescript, TbBrandVite } from "react-icons/tb";
 import { BiGitBranch, BiLogoReact, BiLogoRedux } from "react-icons/bi";
-import { RiJavascriptLine } from "react-icons/ri";
+import { SiCss3, SiJavascript, SiTypescript, SiVitest } from "react-icons/si";
 
 const data = [
   {
@@ -10,7 +9,7 @@ const data = [
   },
   {
     title: "CSS",
-    icon: TbBrandCss3,
+    icon: SiCss3,
   },
   {
     title: "React",
@@ -26,15 +25,15 @@ const data = [
   },
   {
     title: "Typescript",
-    icon: TbBrandTypescript,
+    icon: SiTypescript,
   },
   {
     title: "Javascript",
-    icon: RiJavascriptLine,
+    icon: SiJavascript,
   },
   {
     title: "Vite",
-    icon: TbBrandVite,
+    icon: SiVitest,
   },
   {
     title: "Git",

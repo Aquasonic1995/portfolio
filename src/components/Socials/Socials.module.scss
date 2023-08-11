@@ -1,10 +1,15 @@
 ul{
   display: flex;
+
 }
 .listItem {
   display: flex;
-
+  margin-left: 20px;
   justify-content: space-between;
+
+}
+ .listItem a{
+  margin-left: 20px;
 }
 
 .listItem img{

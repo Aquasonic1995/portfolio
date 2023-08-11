@@ -6,16 +6,16 @@ const Header = () => {
       <Socials />
       <nav className={styles.nav}>
         <ul>
-          <li className={styles.itemList}>
+          <li className={styles.item}>
             <a href={"#about"}>About Me</a>
           </li>
-          <li className={styles.itemList}>
-            <a href={"#skills"}>About Me</a>
+          <li className={styles.item}>
+            <a href={"#skills"}>Skills</a>
           </li>
-          <li className={styles.itemList}>
+          <li className={styles.item}>
             <a href={"#projects"}>Projects</a>
           </li>
-          <li className={styles.itemList}>
+          <li className={styles.item}>
             <a href={"#contacts"}>Contact Me</a>
           </li>
         </ul>

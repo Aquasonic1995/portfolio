@@ -1,4 +1,4 @@
-.itemList:hover{
+.item:hover{
   text-shadow:
           0 0 2px limegreen,
           0 0 6px limegreen,
@@ -13,4 +13,8 @@ header{
 }
 nav{
   display: flex;
+}
+
+.item{
+  margin-left: 20px;
 }
