@@ -1,3 +1,4 @@
+@import '../../assets/animations';
 .footer ul {
   font-size: 40px;
   justify-content: space-around;
@@ -12,4 +13,28 @@ height: 40px  ;
 }
 .footer{
   margin-bottom: 50px;
+}
+.up{  border-radius: 30px ;width: 30px  ;height: 30px;
+background:black; filter: drop-shadow(-.75px 0px 10px #bc13fe);
+  right: 50px;
+  bottom: 50px;
+  position: fixed;
+  animation: rainbow 5s ease-out infinite;
+  & svg{ position: absolute;
+    font-size: 30px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-right: 5px;
+    top: 5px;
+    animation: rainbow 5s ease-out infinite;
+  }
+}
+
+@-webkit-keyframes glow {
+  100%,0% {
+    filter: drop-shadow(-.75px 0px 10px #bc13fe) drop-shadow(-.75px 0px 6px #bc13fe);
+  }
+  50%{
+    filter: drop-shadow(-.75px 0px 10px #34dfeb) drop-shadow(-.75px 0px 6px #34dfeb)
+  }
 }

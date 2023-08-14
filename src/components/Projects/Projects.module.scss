@@ -1,14 +1,27 @@
-.wrapper{
+.wrapper {
+  & img{
+    margin-left: 0;
+  }
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
-.title{
+
+.title {
   margin-top: 20px;
   font-size: 25px;
   text-align: center;
   margin-bottom: 20px;
 }
-.desc{
+.project{
+  position: relative;
+}
+.desc {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(25, 28, 38, 0.5);;
   opacity: 0.5;
 }

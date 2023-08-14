@@ -8,9 +8,9 @@ const Projects = () => {
         {projects.map((item) => (
           <a href={item.href} target="_blank">
             <div className={styles.project}>
+              <div className={styles.desc}>{item.desc}</div>
               <img src={item.img} alt="img" />
               <div className={styles.title}>{item.title}</div>
-              <div className={styles.desc}>{item.desc}</div>
             </div>
           </a>
         ))}

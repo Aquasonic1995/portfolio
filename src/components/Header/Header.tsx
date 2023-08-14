@@ -2,7 +2,7 @@ import styles from "./Header.module.scss";
 import Socials from "../Socials/Socials.tsx";
 const Header = () => {
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="header">
       <Socials />
       <nav className={styles.nav}>
         <ul>

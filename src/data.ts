@@ -48,19 +48,19 @@ const data = [
 export const projects = [
   {
     title: "Counter",
-    img: "/counter.png",
+    img: "counter.png",
     href: "https://aquasonic1995.github.io/Counter/",
     desc: "Simple project made with react, and css.",
   },
   {
     title: "Pizza",
-    img: "/pizza.png",
+    img: "pizza.png",
     href: "https://aquasonic1995.github.io/pizza/",
     desc: "Project made with redux-toolkit, which has a having a sorting, search and shopping cart.",
   },
   {
     title: "Library",
-    img: "/library.png",
+    img: "library.png",
     href: "https://rolling-scopes-school.github.io/aquasonic1995-JSFEPRESCHOOL2023Q2/library/",
     desc: "Simple landing page created on react.",
   },
