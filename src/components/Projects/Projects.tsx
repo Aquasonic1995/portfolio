@@ -8,8 +8,16 @@ const Projects = () => {
         {projects.map((item) => (
           <a href={item.href} target="_blank">
             <div className={styles.project}>
-              <div className={styles.desc}>{item.desc}</div>
-              <img src={item.img} alt="img" />
+              <img src={item.img} alt="img" />{" "}
+              <div>
+                <div className={styles.desc}>
+                  {item.desc}
+                  <div className={styles.buttons}>
+                    <button>Source</button>
+                    <button>Development</button>
+                  </div>
+                </div>
+              </div>
               <div className={styles.title}>{item.title}</div>
             </div>
           </a>

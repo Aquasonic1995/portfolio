@@ -56,13 +56,13 @@ export const projects = [
     title: "Pizza",
     img: "pizza.png",
     href: "https://aquasonic1995.github.io/pizza/",
-    desc: "Project made with redux-toolkit, which has a having a sorting, search and shopping cart.",
+    desc: "Project made with redux-toolkit, have a sorting, search and shopping cart.",
   },
   {
     title: "Library",
     img: "library.png",
     href: "https://rolling-scopes-school.github.io/aquasonic1995-JSFEPRESCHOOL2023Q2/library/",
-    desc: "Simple landing page created on react.",
+    desc: "Simple landing page created with  React.",
   },
 ];
 
