@@ -47,7 +47,8 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 .icon svg {
   height: 60px  ;
 width: 100%;
-
+  fill:#fff;
+  background: transparent;
 
 }
 .icon svg path{

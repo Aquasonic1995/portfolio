@@ -1,6 +1,7 @@
 import styles from "./About.module.scss";
 import ava from "/Avatar.jpg";
 import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
 const About = () => {
   return (
     <>
@@ -12,7 +13,9 @@ const About = () => {
             <ReactTypingEffect text="Frontend developer" />
           </div>
         </article>
-        <img src={ava} alt="avatar" />
+        <Tilt className={styles.tilt}>
+          <img src={ava} alt="avatar" />
+        </Tilt>
       </section>
     </>
   );

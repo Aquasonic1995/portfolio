@@ -49,19 +49,24 @@ export const projects = [
   {
     title: "Counter",
     img: "counter.png",
-    href: "https://aquasonic1995.github.io/Counter/",
+    srcHref: "https://github.com/Aquasonic1995/Counter",
+    devHref: "https://aquasonic1995.github.io/Counter/",
     desc: "Simple project made with react, and css.",
   },
   {
     title: "Pizza",
     img: "pizza.png",
-    href: "https://aquasonic1995.github.io/pizza/",
+    srcHref: "https://github.com/Aquasonic1995/pizza",
+    devHref: "https://aquasonic1995.github.io/pizza/",
     desc: "Project made with redux-toolkit, have a sorting, search and shopping cart.",
   },
   {
     title: "Library",
     img: "library.png",
-    href: "https://rolling-scopes-school.github.io/aquasonic1995-JSFEPRESCHOOL2023Q2/library/",
+    srcHref:
+      "https://rolling-scopes-school.github.io/aquasonic1995-JSFEPRESCHOOL2023Q2/library/",
+    devHref:
+      "https://rolling-scopes-school.github.io/aquasonic1995-JSFEPRESCHOOL2023Q2/library/",
     desc: "Simple landing page created with  React.",
   },
 ];

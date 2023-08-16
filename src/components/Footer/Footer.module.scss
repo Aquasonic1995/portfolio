@@ -4,6 +4,7 @@
   justify-content: space-around;
 }
 .footer ul svg {
+
 height: 40px  ;
   justify-content: space-around;
 }
@@ -12,7 +13,7 @@ height: 40px  ;
   justify-content: space-around;
 }
 .footer{
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 .up{  border-radius: 30px ;width: 30px  ;height: 30px;
 background:black; filter: drop-shadow(-.75px 0px 10px #bc13fe);
@@ -20,12 +21,12 @@ background:black; filter: drop-shadow(-.75px 0px 10px #bc13fe);
   bottom: 50px;
   position: fixed;
   animation: rainbow 5s ease-out infinite;
-  & svg{ position: absolute;
+  & svg{ position: absolute; background: transparent;
     font-size: 30px;
     margin-left: 0;
     margin-top: 0;
     padding-right: 5px;
-    top: 5px;
+    top: 1px;
     animation: rainbow 5s ease-out infinite;
   }
 }

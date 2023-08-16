@@ -7,12 +7,17 @@
 width: 50%;
 }
 .content{
+  font-size: 30px;
   text-align: center;
 }
-.about img{
-  width: 50%;
-
+.about {
+& img{
+  margin: 0;
+}
 }
 h1{
   //background:rgba(17, 17, 17,0);
+}
+.tilt{
+  width: 50%;
 }

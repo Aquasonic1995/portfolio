@@ -7,9 +7,16 @@
           0 0 16px limegreen;
 
 }
-header{position: sticky; top: 0; z-index: 1;
+header{
+
+  width: 100%;
+  position: sticky; top: 0; z-index: 1;
   display:flex;
   justify-content: space-between;
+  font-size: 25px;
+  & ul{
+    padding: 0;
+  }
 }
 nav{
   display: flex;
